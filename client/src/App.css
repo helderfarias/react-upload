@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.drop-target .octicon {
+  color: #e5e5e5;
+  vertical-align: middle;
+}
+
+.drop-target {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 13px;
+}
+
+.uploaded-files.not-populated+.drop-target p {
+  border-top: dashed 1px #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.drag-and-drop {
+  color: #586069;
+  background-color: #fafbfc;
+  border: 1px solid #c3c8cf;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.drop-target p {
+  padding: 25px 0;
+  font-size: 14px;
+  border-color: #ddd;
+  border-style: dashed;
+}
+
+.uploaded-files.is-populated {
+  border: 1px solid #ddd;
+  border-bottom-color: #e5e5e5;
+  margin-bottom: -15px;
+
+}
+.uploaded-files {
+  background: #fff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+ul, ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.uploaded-files>li {
+  padding: 8px 10px;
+  margin: 0;
+  line-height: 22px;
+  list-style-type: none;
+  border-top: 1px solid #eee;
+}
